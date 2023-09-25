@@ -1,3 +1,5 @@
+import primos from "./numerosPrimos";
+
 describe("FACTORES PRMOS", () => {
   it("Deberia retornar una lista vacia para 1", () => {
     const primosfac = new primos();
